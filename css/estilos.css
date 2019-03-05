@@ -1,0 +1,128 @@
+* {
+	font-family: 'Alegreya Sans', sans-seri;
+	color: #070600;
+	font-size: 1.1rem;
+	word-spacing: .1rem;
+	line-height: 1.2rem;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.title {  
+    background-image: url(../images/backg.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 50vw 50vh;
+	height: 50vh;
+	position: relative;
+
+	display: flex;
+	justify-content: right;
+}
+
+.title h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    line-height: 4rem;
+
+    margin: auto;
+    padding-left: 780px;
+}
+
+body nav.menu {
+	background-image: linear-gradient(to bottom, white, #070600);
+	height: 1%;
+	padding: 1.5%;
+	list-style: none;
+}
+
+body nav.menu ul {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body nav.menu ul li a {
+	color: #E9F1F7;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+body nav.menu ul li a:hover {
+	color: #C2D3CD;
+}
+
+body main section h2 {
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top: #393E41 solid 2.5px;
+	border-bottom: #393E41 solid 2.5px;
+}
+
+body main section {
+	padding: 20px;
+	margin: 10px;
+}
+
+body main section p {
+	margin-bottom: 10px;
+}
+
+body main section ul.obras {
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+body main section ul.obras li {
+	margin: 2px;
+	padding-bottom: 4px;
+}
+
+body main section ul.obras li a {
+	margin: 5px;
+	padding-left: 5px;
+}
+
+body main section ul.obras li a:hover {
+	color: #5D737E;
+}
+
+body main section p a:hover {
+	color: #5D737E;
+}
+
+body main section p.link-libro{
+	margin:5px;
+	padding:5px;
+	font-weight: bold;
+}
+
+body footer {
+	background-image: url(../images/footer.jpeg);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: 50vw 50vh;
+	height: 310px;
+	text-align: right;
+}
+
+body footer p {
+	margin: 10px;
+	padding-top: 20px;
+	padding-right: 50px;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+body footer p.footer-top {
+	padding-top: 80px;
+}
